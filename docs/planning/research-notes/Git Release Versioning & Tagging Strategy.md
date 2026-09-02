@@ -93,3 +93,15 @@ git push origin v1.0.0
 git push origin --tags
 
 ## 6. Managing & Navigating Releases
+
+List all tags:
+git tag
+
+View tag details:
+git show v1.0.0
+
+Checkout a specific past version (Read-only mode):
+git checkout v1.0.0
+
+Return to the latest development branch:
+git checkout develop
